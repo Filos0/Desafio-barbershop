@@ -1,0 +1,27 @@
+
+#hero{
+    line-height: 3; 
+
+    h2{
+        font-weight: $roboto-light;
+        font-size: $font-size-large;
+    }
+
+    p{
+        font-weight: $roboto-light;
+        font-size: $font-size-medium;
+    }
+    #rounded-btn{
+        border-radius: 50px;
+        height: 40px;
+        
+    }
+
+}
+
+#rounded-btn:hover {
+    background-color: $platinum;
+    border: $platinum;
+    color: $nickel;
+    cursor: pointer;
+}

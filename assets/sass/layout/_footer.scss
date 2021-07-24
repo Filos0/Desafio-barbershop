@@ -1,0 +1,11 @@
+footer {
+    background-color: $eerie-black;
+    color: $white;
+    text-align: center;
+        img{
+            height: 75px;
+             @media screen and (max-width: 900px){
+                 height: 34px;
+             }
+        }
+}

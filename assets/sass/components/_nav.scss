@@ -1,0 +1,18 @@
+.navbar {
+    background-color: $eerie-black;
+    img {
+        height: 45px;
+    }
+
+
+    .active {
+        color: $ruddy-pink!important;
+    }
+    .nav-link:hover {
+    color: $ruddy-pink!important;
+    cursor: pointer;
+}
+}
+
+
+

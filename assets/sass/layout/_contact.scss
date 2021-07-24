@@ -1,0 +1,40 @@
+#contacto{
+    .contacto__group {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: center;
+    
+        .contacto__item{
+            text-align: center;
+            
+            img{
+                
+                border-radius: 50%;
+                height: 180px;
+               
+                
+            }
+
+            h2{ 
+                text-align: left;
+                font-family: $playfair-bold;
+                font-style: italic;
+                font-weight: 900;
+                font-size: $font-size-x-large;
+                @include media_query_contact;
+            }
+            h3 {
+                text-align: left;
+                color: $ruddy-pink;
+                font-weight: $roboto-light;
+                font-size: $font-size-large;
+                @include media_query_contact;
+            }
+            p {
+                font-weight: 100;
+                
+            }
+        }
+    }
+}
+

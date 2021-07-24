@@ -1,0 +1,66 @@
+#paginacion {
+    background-color: $platinum!important;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    nav {
+        ul {
+        margin: 0;
+            .page-link {
+                color: black;
+            }
+            
+            li a.active {
+                background-color: $nickel;
+                color: white;
+                
+            }
+            li:first-child a{
+                border-top-left-radius: 50px!important;
+                border-bottom-left-radius: 50px!important;
+            }
+            li:last-child a{
+                border-top-right-radius: 50px!important;
+                border-bottom-right-radius: 50px!important;
+            }
+        }
+    }
+}
+
+
+
+/*
+LO MISMO PERO MAS FEO
+.pagination li:first-child a {
+    border-top-left-radius: 50px!important;
+    border-bottom-left-radius: 50px!important;
+}
+
+.pagination li:last-child a {
+    border-top-right-radius: 50px!important;
+    border-bottom-right-radius: 50px!important;
+}
+*/
+
+/*
+#paginacion {
+    background-color: $platinum!important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .pagination {
+        justify-content: center;
+        
+    }
+
+    .pagination__list {
+        margin: 0;
+        .pagination__item__left {
+            border-top-left-radius: 50%;
+            border-bottom-left-radius: 1rem;
+        }
+    }
+}
+*/
+
+/*border-top-right-radius: 1rem;
+
+border-bottom-right-radius: 1rem;*/

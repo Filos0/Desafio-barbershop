@@ -1,0 +1,16 @@
+@mixin media_query_header {
+    //in small screen, header title will shrink
+    @media screen and (max-width: 900px) {
+            font-size: $font-size-x-large;
+        
+    }
+}
+
+@mixin media_query_contact {
+    //In small screen, h2 and h3 in "Contact" will be centered
+    @media screen and (max-width: 900px) {
+            text-align: center;
+        
+    }
+}
+
