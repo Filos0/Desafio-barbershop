@@ -19,6 +19,7 @@ img {
 }
 .navbar .nav-link:hover {
   color: #d76c69 !important;
+  cursor: pointer;
 }
 
 /*header mide 600 px desde que termina el nav.
@@ -72,6 +73,7 @@ header div h1 {
   background-color: #e6e7e7;
   border: #e6e7e7;
   color: #6c6e70;
+  cursor: pointer;
 }
 
 #contacto .contacto__group {
@@ -110,7 +112,10 @@ header div h1 {
   }
 }
 #contacto .contacto__group .contacto__item p {
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 2;
+  text-align: justify;
 }
 
 #paginacion {

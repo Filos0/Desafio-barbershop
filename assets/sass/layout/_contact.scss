@@ -31,7 +31,10 @@
                 @include media_query_contact;
             }
             p {
-                font-weight: 100;
+                font-weight: $roboto-light;
+                font-size: $font-size-medium;
+                line-height: 2;
+                text-align: justify;
                 
             }
         }
